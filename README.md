@@ -1,0 +1,1 @@
+For my experiments with using github actions for creating rust binaries.
