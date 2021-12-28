@@ -1,7 +1,7 @@
 pub use std::u8;
 
 pub fn saturating_add(left: u8, right: u8) -> u8 {
-    return u8::saturating_add(left, right);
+    u8::saturating_add(left, right)
 }
 
 #[cfg(test)]
