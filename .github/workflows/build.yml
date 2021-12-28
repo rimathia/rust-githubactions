@@ -23,7 +23,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           RUSTTARGET: ${{ matrix.target }}
-          EXTRA_FILES: "assets"
+          EXTRA_FILES: "assets/dummy.txt"
           SRC_DIR: "."
           ARCHIVE_TYPES: ${{ matrix.archive }}
           PRE_BUILD: "pre_build.sh"
